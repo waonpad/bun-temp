@@ -6,7 +6,7 @@
     "fmt": "biome format --write .",
     "lnt": "biome lint --write .",
     "che": "biome check --write .",
-    "tst": "vitest run",
+    "tst": "echo 'vitest run してください'",
     "tst:w": "vitest watch --silent",
     "tst:ci": "vitest run --silent"
   },
