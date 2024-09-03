@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "prepare": "lefthook install",
     "fmt": "biome format --write .",
     "lnt": "biome lint --write .",
     "che": "biome check --write .",
@@ -13,7 +14,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
     "@types/bun": "latest",
-    "husky": "^9.1.4",
+    "lefthook": "^1.7.15",
     "vitest": "^2.0.5"
   },
   "peerDependencies": {
