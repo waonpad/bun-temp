@@ -7,9 +7,9 @@
     "fmt": "biome format --write .",
     "lnt": "biome lint --write .",
     "che": "biome check --write .",
-    "tst": "echo 'vitest run してください'",
-    "tst:w": "vitest watch --silent",
-    "tst:ci": "vitest run --silent"
+    "test": "echo 'vitest run してください'",
+    "test:w": "vitest watch --silent",
+    "test:ci": "vitest run --silent"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
