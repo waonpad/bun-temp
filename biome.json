@@ -33,7 +33,6 @@
     "ignore": [
       "**/node_modules/**",
       "**/*.json",
-      ".next/**"
     ]
   }
 }
