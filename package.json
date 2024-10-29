@@ -12,10 +12,10 @@
     "test:ci": "vitest run --silent"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3",
+    "@biomejs/biome": "^1.9.4",
     "@types/bun": "latest",
-    "lefthook": "^1.7.15",
-    "vitest": "^2.0.5"
+    "lefthook": "^1.8.2",
+    "vitest": "^2.1.4"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
